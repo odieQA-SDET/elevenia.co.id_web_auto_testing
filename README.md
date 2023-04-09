@@ -86,18 +86,18 @@ This test case verifies that the Search and Add Product to Cart correctly.
 
 ###### Steps:
 
-Navigate to https://www.elevenia.co.id/
-Enter "computer" in the search bar and press enter
-Click on the "Produk terlaris" button to filter results
-Click on the first product in the search results
-Enter "3" in the quantity field
-Click the "Tambahkan ke Cart" button
-If a pop-up message appears, click the "Apakah ingin melihat Cart Anda?" button
-Click the "Lihat Keranjang" button
-Verify that the product added to the cart is correct
+- Navigate to https://www.elevenia.co.id/
+- Enter "computer" in the search bar and press enter
+- Click on the "Produk terlaris" button to filter results
+- Click on the first product in the search results
+- Enter "3" in the quantity field
+- Click the "Tambahkan ke Cart" button
+- If a pop-up message appears, click the "Apakah ingin melihat Cart Anda?" button
+- Click the "Lihat Keranjang" button
+- Verify that the product added to the cart is correct
 
 ###### Expected Result:
-The product "computer" is successfully added to the cart with a quantity of 3.
+- The product "computer" is successfully added to the cart with a quantity of 3.
 
 
 ### Test Case Name: Remove Product from Cart
@@ -107,38 +107,38 @@ This test case verifies that the Remove Product from Cart correctly.
 
 ###### Steps:
 
-Navigate to https://www.elevenia.co.id/
-Enter "computer" in the search bar and press enter
-Click on the "Produk terlaris" button to filter results
-Click on the first product in the search results
-Enter "3" in the quantity field
-Click the "Tambahkan ke Cart" button
-If a pop-up message appears, click the "Apakah ingin melihat Cart Anda?" button
-Click the "Lihat Keranjang" button
-Click the "Ubah Kurir" text box
-Click the "Batal" button on the pop-up message
-Click the "Hapus" button next to the product added to the cart
-Click the "OK" button on the pop-up message
-Verify that the cart is empty
+- Navigate to https://www.elevenia.co.id/
+- Enter "computer" in the search bar and press enter
+- Click on the "Produk terlaris" button to filter results
+- Click on the first product in the search results
+- Enter "3" in the quantity field
+- Click the "Tambahkan ke Cart" button
+- If a pop-up message appears, click the "Apakah ingin melihat Cart Anda?" button
+- Click the "Lihat Keranjang" button
+- Click the "Ubah Kurir" text box
+- Click the "Batal" button on the pop-up message
+- Click the "Hapus" button next to the product added to the cart
+- Click the "OK" button on the pop-up message
+- Verify that the cart is empty
 
 ###### Expected Result:
-The product "computer" is successfully removed from the cart and the cart is empty.
-Note: These test cases can be automated using Selenium and can be integrated with a testing framework like JUnit or TestNG to run them in bulk. Additionally, the test cases can be written using the Gherkin syntax and implemented using a BDD framework like Cucumber.
+- The product "computer" is successfully removed from the cart and the cart is empty.
+
 
 ##### Note: These test cases can be automated using Selenium and can be integrated with a testing framework like JUnit or TestNG to run them in bulk. Additionally, the test cases can be written using the Gherkin syntax and implemented using a BDD framework like Cucumber.
 
 ##### To complete this task, you will need to follow these steps:
 
-Install Intelijj IDE, MAVEN Framework, CUCUMBER Framework, and SERENITY Report.
-Set up a new Maven project in Intelijj IDE.
-Add the necessary dependencies to your pom.xml file for Selenium, JUnit, and Cucumber.
-Create a new feature file in the src/test/resources/features directory using the Gherkin syntax. This file should describe the scenario outlined in the task, step-by-step.
-Write the step definitions in Java for the steps outlined in the feature file.
-Create a runner class that runs the feature file and generates a report using Serenity.
-Run the tests and verify that they pass.
-Document any issues found during manual testing and write a professional QA report format.
-Document all test cases (both manual and automated) in a separate document.
+1. Install Intelijj IDE, MAVEN Framework, CUCUMBER Framework, and SERENITY Report.
+2. Set up a new Maven project in Intelijj IDE.
+3. Add the necessary dependencies to your pom.xml file for Selenium, JUnit, and Cucumber.
+4. Create a new feature file in the src/test/resources/features directory using the Gherkin syntax. This file should describe the scenario outlined in the - task, step-by-step.
+5. Write the step definitions in Java for the steps outlined in the feature file.
+6. Create a runner class that runs the feature file and generates a report using Serenity.
+7. Run the tests and verify that they pass.
+8. Document any issues found during manual testing and write a professional QA report format.
+9. Document all test cases (both manual and automated) in a separate document.
 
-### Submit the functional test script source code, test cases document, and issue report document in a Github repository.
+#### Submit the functional test script source code, test cases document, and issue report document in a Github repository.
 
-### AND SELENIUM AUTOMATION TESTING WITH CI/CD GIT ACTION in SUCCESS
+#### AND SELENIUM AUTOMATION TESTING WITH CI/CD GIT ACTION in SUCCESS
