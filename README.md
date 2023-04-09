@@ -1,5 +1,5 @@
 # SELENIUM JUNIT-FRAMEWORK
-Simple Factorial Web App with cypress + Simple Test Case Manual and Automated Documents 
+Make a web automation E2E test using Selenium Simple Test Case Manual and Automated Documents 
 
 # Test Document for www.elevenia.co.
 ## _The Fullstack of Quality Assurance Engineering_
