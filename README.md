@@ -1,4 +1,4 @@
-# CYPRESS-FRAMEWORK
+# SELENIUM JUNIT-FRAMEWORK
 Simple Factorial Web App with cypress + Simple Test Case Manual and Automated Documents 
 
 # Test Document for www.elevenia.co.
