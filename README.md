@@ -45,13 +45,8 @@ The objective of this test plan and strategy is to verify the functionality of t
 
 ### Test Scope
 The test will cover the following scenarios:
-- The factorial of 0 is equal to 1
-- Factorial of positive integer should be calculated correctly
-- Negative integer input should display error message
-- Non-numeric input should display error message
-- Decimal number input should display error message
-- Large number input should be calculated correctly
-- Large number input should be calculated correctly with null output
+- The Search and Add Product to Cart correctly
+- The Remove Product from Cart correctly
 
 ### Test Environment
 The tests will be executed on the following environment:
@@ -79,7 +74,6 @@ Make a web automation test using Selenium with the following scenario:
 ## Test Case Document: Elevenia.co.id Web Application
 
 ### Test Case Name: Search and Add Product to Cart
-##### Test Case Name 
 ##### Test ID: ELE-001
 ###### Description:
 This test case verifies that the Search and Add Product to Cart correctly.
